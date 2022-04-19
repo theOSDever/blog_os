@@ -1,9 +1,5 @@
 name: Build code on schedule
 
-on:
-  schedule:
-    - cron: '40 1 * * *'   # every day at 1:40
-
 jobs:
   trigger-build:
     name: Trigger Build
